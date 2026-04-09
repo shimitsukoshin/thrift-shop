@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#F5F1E9"/>
+      <stop offset="1" stop-color="#E6D8C3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#6B4F3A" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M430 270c-40 170 70 260 70 390s-110 220-150 360"/>
+    <path d="M770 270c40 170-70 260-70 390s110 220 150 360"/>
+    <path d="M520 470h160"/>
+    <path d="M500 930h0"/>
+  </g>
+  <text x="80" y="1120" font-family="ui-sans-serif, system-ui" font-size="54" fill="#6B4F3A">Demo image  knit scarf</text>
+</svg>
