@@ -35,7 +35,7 @@ export default async function OrdersPage() {
       </div>
 
       <div className="mt-6 grid gap-3">
-        {orders.map((o) => (
+        {orders.map((o: any) => ...)
           <Link
             key={o.id}
             href={`/order/${o.id}`}
