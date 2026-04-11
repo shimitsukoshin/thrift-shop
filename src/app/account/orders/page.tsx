@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { Container } from "@/components/Container";
+import { Container } from "../../components/Container";
 import { prisma } from "@/lib/prisma";
 import { requireUser } from "@/lib/auth-helpers";
 import { fulfillmentMethodLabel, orderStatusLabel, paymentMethodLabel, paymentStatusLabel } from "@/lib/order-labels";
