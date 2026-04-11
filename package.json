@@ -6,7 +6,8 @@
       "dev": "next dev",
       "build": "next build",
       "start": "next start",
-      "lint": "next lint"
+      "lint": "next lint",
+      "postinstall": "prisma generate"
     },
     "dependencies": {
       "next": "14.2.3",
@@ -15,7 +16,9 @@
       "lucide-react": "^0.378.0",
       "clsx": "^2.1.1",
       "tailwind-merge": "^2.3.0",
-      "bcryptjs": "^2.4.3"
+      "bcryptjs": "^2.4.3",
+      "@prisma/client": "^5.14.0",
+      "iron-session": "^8.0.1"
     },
     "devDependencies": {
       "postcss": "^8",
@@ -26,6 +29,7 @@
       "@types/react": "^18",
       "@types/react-dom": "^18",
       "@types/bcryptjs": "^2.4.6",
-      "typescript": "^5"
+      "typescript": "^5",
+      "prisma": "^5.14.0"
     }
   }
